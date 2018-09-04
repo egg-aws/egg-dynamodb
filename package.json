@@ -1,0 +1,59 @@
+{
+  "name": "egg-dynamodb",
+  "version": "1.0.0",
+  "description": "dynamodb plugin for egg.js.",
+  "eggPlugin": {
+    "name": "dynamodb",
+    "dependencies": [
+      "awsSdk"
+    ]
+  },
+  "keywords": [
+    "egg",
+    "eggPlugin",
+    "egg-plugin",
+    "dynamodb",
+    "aws"
+  ],
+  "devDependencies": {
+    "autod": "^3.0.1",
+    "autod-egg": "^1.1.0",
+    "egg": "^2.10.0",
+    "egg-aws-sdk": "^1.1.0",
+    "egg-bin": "^4.8.3",
+    "egg-ci": "^1.8.0",
+    "egg-mock": "^3.19.7",
+    "eslint": "^5.4.0",
+    "eslint-config-egg": "^7.1.0"
+  },
+  "engines": {
+    "node": ">=8.0.0"
+  },
+  "scripts": {
+    "test": "npm run lint -- --fix && egg-bin pkgfiles && npm run test-local",
+    "test-local": "egg-bin test",
+    "cov": "egg-bin cov",
+    "lint": "eslint app.js config test lib",
+    "ci": "egg-bin pkgfiles --check && npm run lint && npm run cov",
+    "pkgfiles": "egg-bin pkgfiles",
+    "autod": "autod"
+  },
+  "files": [
+    "config",
+    "app.js",
+    "lib"
+  ],
+  "ci": {
+    "version": "8, 10"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/egg-aws/egg-dynamodb.git"
+  },
+  "bugs": {
+    "url": "https://github.com/egg-aws/egg-dynamodb/issues"
+  },
+  "homepage": "https://github.com/egg-aws/egg-dynamodb#readme",
+  "author": "Henry Zhuang(ngot)",
+  "license": "MIT"
+}
