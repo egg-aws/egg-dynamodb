@@ -15,7 +15,7 @@
 [codecov-url]: https://codecov.io/github/egg-aws/egg-dynamodb?branch=master
 [david-image]: https://img.shields.io/david/egg-aws/egg-dynamodb.svg?style=flat-square
 [david-url]: https://david-dm.org/egg-aws/egg-dynamodb
-[snyk-image]: https://snyk.io/test/npm/egg-dynamodb/badge.svg?style=flat-square
+[snyk-image]: https://snyk.io/test/npm/egg-dynamodb/badge.svg
 [snyk-url]: https://snyk.io/test/npm/egg-dynamodb
 [download-image]: https://img.shields.io/npm/dm/egg-dynamodb.svg?style=flat-square
 [download-url]: https://npmjs.org/package/egg-dynamodb
