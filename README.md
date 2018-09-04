@@ -9,8 +9,8 @@
 
 [npm-image]: https://img.shields.io/npm/v/egg-dynamodb.svg?style=flat-square
 [npm-url]: https://npmjs.org/package/egg-dynamodb
-[travis-image]: https://img.shields.io/travis/egg-aws/egg-dynamodb.svg?style=flat-square
-[travis-url]: https://travis-ci.org/egg-aws/egg-dynamodb
+[travis-image]: https://travis-ci.com/egg-aws/egg-dynamodb.svg?branch=master
+[travis-url]: https://travis-ci.com/egg-aws/egg-dynamodb
 [codecov-image]: https://img.shields.io/codecov/c/github/egg-aws/egg-dynamodb.svg?style=flat-square
 [codecov-url]: https://codecov.io/github/egg-aws/egg-dynamodb?branch=master
 [david-image]: https://img.shields.io/david/egg-aws/egg-dynamodb.svg?style=flat-square
